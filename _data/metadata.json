@@ -1,10 +1,10 @@
 {
-  "title": "Your Blog Name",
+  "title": "Bryan's Blog",
   "url": "https://example.com/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "I am writing about my experiences as a front-end developer.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "I am writing about my experiences as a front-end developer.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"
