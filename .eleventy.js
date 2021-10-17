@@ -119,7 +119,8 @@ module.exports = function(eleventyConfig) {
     // You can also pass this in on the command line using `--pathprefix`
 
     // Optional (default is shown)
-    pathPrefix: "/",
+    pathPrefix: "bryans-blog",
+    url: "bryans-blog",
     // -----------------------------------------------------------------
 
     // Pre-process *.md files with: (default: `liquid`)
