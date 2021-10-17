@@ -2,67 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://example.com/bryans-blog/posts/firstpost/</loc>
-    <lastmod>2018-05-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/bryans-blog/posts/secondpost/</loc>
-    <lastmod>2018-07-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/bryans-blog/posts/thirdpost/</loc>
-    <lastmod>2018-08-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/bryans-blog/posts/fourthpost/</loc>
-    <lastmod>2018-09-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/bryans-blog/about/</loc>
+    <loc>https://example.com/about/</loc>
     <lastmod>2021-10-16</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/bryans-blog/posts/</loc>
+    <loc>https://example.com/</loc>
     <lastmod>2021-10-16</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/bryans-blog/</loc>
+    <loc>https://example.com/page-list/</loc>
     <lastmod>2021-10-16</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/bryans-blog/page-list/</loc>
+    <loc>https://example.com/tags/</loc>
     <lastmod>2021-10-16</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/bryans-blog/tags/</loc>
-    <lastmod>2021-10-16</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/bryans-blog/tags/another-tag/</loc>
-    <lastmod>2021-10-16</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/bryans-blog/tags/second-tag/</loc>
-    <lastmod>2021-10-16</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/bryans-blog/tags/number-2/</loc>
-    <lastmod>2021-10-16</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/bryans-blog/tags/posts-with-two-tags/</loc>
-    <lastmod>2021-10-16</lastmod>
+    <loc>https://example.com/posts/1-first-post/</loc>
+    <lastmod>2021-10-17</lastmod>
   </url>
 </urlset>
