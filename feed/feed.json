@@ -10,8 +10,8 @@
     "url": "https://example.com/about-me/"
   },
   "items": [{
-      "id": "https://example.com/posts/1-first-post/",
-      "url": "https://example.com/posts/1-first-post/",
+      "id": "https://example.com/bryans-blog/posts/1-first-post/",
+      "url": "https://example.com/bryans-blog/posts/1-first-post/",
       "title": "Hello World",
       "content_html": "<p>This is my first post.  And as a student of computer science, it is necessary to to start it off with <code>hello world</code>.  =)</p>\n",
       "date_published": "2021-10-17T00:00:00Z"
