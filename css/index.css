@@ -25,8 +25,7 @@ p:last-child {
   margin-bottom: 0;
 }
 p,
-.tmpl-post li,
-img {
+.tmpl-post li {
   max-width: 37.5em; /* 600px /16 */
 }
 p,
@@ -246,4 +245,21 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+.post-2-flow-chart-img {
+  height: auto;
+  width: 380px;
+}
+
+@media only screen and (min-width: 600px) {
+  .post-2-flow-chart-img {
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .post-2-flow-chart-img {
+    width: 750px;
+  }
 }

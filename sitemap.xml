@@ -12,6 +12,16 @@
   </url>
   
   <url>
+    <loc>https://example.com/bryans-blog/tags/hard-skills/</loc>
+    <lastmod>2021-10-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/bryans-blog/tags/react/</loc>
+    <lastmod>2021-10-16</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/bryans-blog/posts/1-first-post/</loc>
     <lastmod>2021-10-17</lastmod>
   </url>
@@ -24,5 +34,10 @@
   <url>
     <loc>https://example.com/bryans-blog/</loc>
     <lastmod>2021-10-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/bryans-blog/posts/2-state/</loc>
+    <lastmod>2021-10-18</lastmod>
   </url>
 </urlset>
