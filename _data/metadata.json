@@ -1,21 +1,21 @@
 {
   "title": "Bryan's Blog",
-  "url": "https://example.com/",
+  "url": "https://bryg217.github.io/bryans-blog/",
   "language": "en",
   "description": "I am writing about my experiences as a front-end developer.",
   "feed": {
     "subtitle": "I am writing about my experiences as a front-end developer.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://bryg217.github.io/bryans-blog/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://bryg217.github.io/bryans-blog"
   },
   "author": {
     "name": "Your Name Here",
     "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "url": "https://bryg217.github.io/bryans-blog/about/"
   }
 }
