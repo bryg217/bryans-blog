@@ -11,7 +11,7 @@ layout: layouts/post.njk
 ## Description
 
 In this post, I'd like to share a technique for managing state within React, specifically,
-**state shared between different pages.**
+**state shared between different pages.**  This is, especially, a nice technique for those of you who are using `Next.js`.
 
 It's important to emphasize that last point above: **state shared between different pages**.
 
@@ -19,7 +19,7 @@ Within `React`, you of course have many different options when it comes to state
 
 With this post, and many other to come, I don't seek to take an opinionated stance.  I believe there's many different approaches for many different problems.  Instead, I just seek to add another tool to our metaphorical tool belt.
 
-So, again, this post simply shows **a different way of sharing state between different pages/routes within a React app, without Redux**.
+So, again, this post simply shows **a different way of sharing state between different pages/routes within a React app, without Redux -- again, especially for developers using Next.js**.
 
 **Note:** At the end of this post, I'll share a link to an example project using this approach.
 
