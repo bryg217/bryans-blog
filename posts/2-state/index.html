@@ -26,11 +26,11 @@
 
 <h2 id="description" tabindex="-1">Description <a class="direct-link" href="#description" aria-hidden="true">#</a></h2>
 <p>In this post, I'd like to share a technique for managing state within React, specifically,<br>
-<strong>state shared between different pages.</strong></p>
+<strong>state shared between different pages.</strong>  This is, especially, a nice technique for those of you who are using <code>Next.js</code>.</p>
 <p>It's important to emphasize that last point above: <strong>state shared between different pages</strong>.</p>
 <p>Within <code>React</code>, you of course have many different options when it comes to state.  There are different patterns and APIs for different problems.  As an example, it's perfectly okay to use the standard <code>useState</code> API for certain use cases.  One that comes to mind is where you have a &quot;page&quot; component (e.g. <code>Home</code>), and that component has a state variable for a banner (i.e. a sub-component that can hide or show based on conditions).  For this imaginary use case, it's okay for that piece of state to live within <code>Home</code>, since no other page cares about it.  This is important to keep in mind.</p>
 <p>With this post, and many other to come, I don't seek to take an opinionated stance.  I believe there's many different approaches for many different problems.  Instead, I just seek to add another tool to our metaphorical tool belt.</p>
-<p>So, again, this post simply shows <strong>a different way of sharing state between different pages/routes within a React app, without Redux</strong>.</p>
+<p>So, again, this post simply shows <strong>a different way of sharing state between different pages/routes within a React app, without Redux -- again, especially for developers using Next.js</strong>.</p>
 <p><strong>Note:</strong> At the end of this post, I'll share a link to an example project using this approach.</p>
 <p><strong>Note:</strong> I learned this pattern from an amazing YouTube and YouTuber.  <a href="https://www.youtube.com/watch?v=MR43-gYVQbI&amp;t=504s">Here</a> is the link to that video (thank him for me).</p>
 <h2 id="prerequisites" tabindex="-1">Prerequisites <a class="direct-link" href="#prerequisites" aria-hidden="true">#</a></h2>
