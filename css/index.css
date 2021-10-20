@@ -25,7 +25,8 @@ p:last-child {
   margin-bottom: 0;
 }
 p,
-.tmpl-post li {
+.tmpl-post li,
+img {
   max-width: 37.5em; /* 600px /16 */
 }
 p,
@@ -249,6 +250,7 @@ a[href].direct-link:focus:visited,
 
 .post-2-flow-chart-img {
   height: auto;
+  max-width: none;
   width: 380px;
 }
 
