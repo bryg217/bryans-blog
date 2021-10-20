@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Step Framework For Solving Almost All CS Problems</title>
+    <meta name="description" content="Checkout the cool &quot;framework&quot; for solving most problems.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Bryan&#39;s Blog">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Bryan&#39;s Blog">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Bryan&#39;s Blog</a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/about/">About</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post">
+      <h1>3 Step Framework For Solving Almost All CS Problems</h1>
+
+<time datetime="2021-10-20">20 Oct 2021</time><a href="/tags/soft-skills/" class="post-tag">Soft Skills</a>
+
+<h2 id="overview" tabindex="-1">Overview <a class="direct-link" href="#overview" aria-hidden="true">#</a></h2>
+<p>Today I want to share a formula that has been useful for solving problems at work.</p>
+<p>For those of you that love TLDRs (like me), here are the 3 steps:</p>
+<ol>
+<li>Analysis</li>
+<li>Requirements</li>
+<li>Technical Design</li>
+</ol>
+<p>Below, I'll be going through each in detail, and then at the end, I'll use an example to show what it looks like in practice.</p>
+<p>Without further ado, let's get started.</p>
+<h2 id="analysis" tabindex="-1">Analysis <a class="direct-link" href="#analysis" aria-hidden="true">#</a></h2>
+<p>This is the first step, obviously.  The key theme here is: <strong>understanding the problem and solution in plain English</strong>.</p>
+<p>In order to understand the problem and solution, here are the actual steps:</p>
+<ol>
+<li>State The Problem: Start with a 1 liner, if you can.  The sentence should clearly state your problem in plain English.</li>
+<li>List Down Use Cases: Once you understand the problem, you can go ahead and move onto the use cases for said problem.</li>
+<li>Understanding Current Implementation (optional): This one is really about understanding the current component, part of the system, or whatever it is that you will be working on.  As professionals, we spend a lot of time working within a team, and that means, working with your teammates' (or your old) code.  So, this is a step I utilize <strong>a ton</strong> in order to ensure my solution fits within the code base's current state.</li>
+<li>Algorithms: Once you understand the issue and the use cases, you can move onto thinking about solutions for each of the use cases, in plain English.</li>
+<li>Questions: This last one is a special one.  This one can be done after step 1, 2, 3 and of course 4.  Just because I listed it here, doesn't mean that it should always go after 4.  In fact, I find myself asking questions all throughout the process, if I am honest.</li>
+</ol>
+<p>In practice, this can be dynamic, but that general flow is usually what my thought process follows.</p>
+<p>Next, let's take a look at <em>requirements</em>.</p>
+<h2 id="requirements" tabindex="-1">Requirements <a class="direct-link" href="#requirements" aria-hidden="true">#</a></h2>
+<p>This step is pretty self explanatory.  Here you need to gather the requirements of said problem/feature that your solution should incorporate.  These are typically the non-negotiable aspects of a given feature.</p>
+<p>As you'll see in the example below, I'll be diving into this a little bit more.</p>
+<h2 id="technical-design" tabindex="-1">Technical Design <a class="direct-link" href="#technical-design" aria-hidden="true">#</a></h2>
+<p>This is where things begin to get interesting.  Here is where I think about <strong>the implementation</strong>.</p>
+<p>So, the main things we want to highlight here are:</p>
+<ol>
+<li>Files Being Created or Modified</li>
+<li>Code Being Updated or Added to File:  This is typically your functions, objects, classes and more.  Within React, the functions or classes can be the components themselves.</li>
+<li>High Level Updates: For each of the pieces of code mentioned in the previous step, talk about the high level updates you would make to said pieces of code, and if applicable, the tests you would write for said code.</li>
+</ol>
+<p>Now, as I've eluded to in the previous sections, this is dynamic and over time, you can adjust the process to your liking.  Now, with that being said, let's move onto the next section.</p>
+<h2 id="reality" tabindex="-1">Reality <a class="direct-link" href="#reality" aria-hidden="true">#</a></h2>
+<p>There are a few key points I'd like to make before moving onto the final section, below.</p>
+<p>And those are:</p>
+<ol>
+<li>Be Flexible: If you've never tried this process out, follow it.  Make sure you do it more than once, though.  Give it a fair shot.  And then, as I eluded to in the previous section, you can adjust certain parts (i.e. add or remove) depending on the problem you are solving and what works for you.  But definitely, the first few times, follow each of the steps.</li>
+<li>Don't Be Surprised: You may have missed one or two minor things, especially for the bigger features.  That is totally okay.  Better to miss it now than in production.  If one of your teammates has the time and they are familiar with the piece of code you are working on, send them this and get some feedback.  Typically this is a nice way of ruling out anything you may have missed.</li>
+</ol>
+<p>Now, let's dive into the fun example that'll pull everything together.</p>
+<h2 id="example" tabindex="-1">Example <a class="direct-link" href="#example" aria-hidden="true">#</a></h2>
+<h3 id="overview-1" tabindex="-1">Overview <a class="direct-link" href="#overview-1" aria-hidden="true">#</a></h3>
+<p>For this example, we're going to keep it <strong>SIMPLE</strong>.</p>
+<p>What we're going to do is head to over to <a href="https://react-bootstrap.github.io/components/modal/">React Bootstrap's Site</a> (awesome library by the way).  And, we're going to take a look at their modal component.  For this component, we are going to pretend that it's already implemented (because it is).</p>
+<p>Given the information above, the problem we want to solve is: <strong>give the user the ability to open a modal, like how we do in the GIF below.  Also, note that this is within a React application</strong>.</p>
+<img src="https://bryans-blog.s3.amazonaws.com/3-example-modal.gif"/>
+<h3 id="analysis-1" tabindex="-1">Analysis <a class="direct-link" href="#analysis-1" aria-hidden="true">#</a></h3>
+<p><strong>Problem</strong></p>
+<p>The problem more clearly stated is: We have a button within a page component, and when that button is clicked, it needs to show the modal.</p>
+<p><em>Note: We are going to leave the handling of closing the modal outside of this for now.  Even though it doesn't make sense, let's pretend that once the modal is open, it's open forever.  Horrible user experience, I know.  But, I want to keep things simple and short.</em></p>
+<p><strong>Use Cases</strong></p>
+<ol>
+<li>User clicks on button</li>
+<li>User does not click on button</li>
+</ol>
+<p><strong>Questions</strong></p>
+<p><em>Note: Given the simplicity of this feature and the fact that I came up with the specs for it, I do not have questions.  But, for the sake of the example, I'll add one.</em></p>
+<ol>
+<li>Hover State: Is there any sort of hover state style configuration that we would need to add?</li>
+</ol>
+<p><em>Note: Notice that I did ask the question after use cases, not last.</em></p>
+<p><strong>Current Implementation</strong></p>
+<ul>
+<li>The Modal:
+<ul>
+<li>Already implemented</li>
+<li>For the sake of this example, the only thing we need to worry about is passing/telling the modal to be visible on button click (i.e. a state variable)</li>
+</ul>
+</li>
+<li>Button
+<ul>
+<li>Already implemented as well</li>
+<li>All I would have to do is update it on click</li>
+</ul>
+</li>
+</ul>
+<p><strong>Algorithm</strong></p>
+<ul>
+<li>User clicks button</li>
+<li>Modal becomes visible (i.e. button tells it to show)</li>
+</ul>
+<h3 id="requirements-1" tabindex="-1">Requirements <a class="direct-link" href="#requirements-1" aria-hidden="true">#</a></h3>
+<ol>
+<li>Permanent Modal: Once the modal shows, it's forever shown.</li>
+<li>Standard UI: No UI configurations will be needed for this button.</li>
+<li>Button Click Event Handler: Popup should only show if user clicks on button, not on hover.</li>
+</ol>
+<h3 id="technical-design-1" tabindex="-1">Technical Design <a class="direct-link" href="#technical-design-1" aria-hidden="true">#</a></h3>
+<p><em>Note: Again, I am working within an imaginary project, and thus, I am making up these files.</em></p>
+<ul>
+<li><code>Page.js</code>
+<ul>
+<li>State: Add boolean to account for modal visibility; it will be the data that is passed into the Modal.</li>
+<li>Button - <code>onClick</code>: Update the handler to be <code>() =&gt; setVisible(true)</code>.</li>
+<li>Modal: Ensure the modal passes the state variable as props.</li>
+</ul>
+</li>
+</ul>
+<h3 id="closing-thoughts" tabindex="-1">Closing Thoughts <a class="direct-link" href="#closing-thoughts" aria-hidden="true">#</a></h3>
+<p>And, that is what it looks like in practice.  We have all three parts thought out, and it looks like we are ready to proceed to implementation.  NICE!</p>
+<h2 id="conclusion" tabindex="-1">Conclusion <a class="direct-link" href="#conclusion" aria-hidden="true">#</a></h2>
+<p>Well, as always, it was a pleasure writing this out.  I hope you got some value out of it.</p>
+<p>If you find that I made a mistake, missed something, something needs to be corrected or, you just want to just reach out, definitely feel free to do so at <a href="mailto:bguillen95@gmail.com">bguillen95@gmail.com</a>.</p>
+<p>All the best.</p>
+
+<hr>
+<ul><li>Previous: <a href="/posts/2-state/">How To Manage Global State Without Redux</a></li>
+</ul>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /posts/3-problem-solving/ -->
+  </body>
+</html>

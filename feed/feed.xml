@@ -3,9 +3,9 @@
 	<title>Bryan&#39;s Blog</title>
 	<subtitle>I am writing about my experiences as a front-end developer.</subtitle>
 	
-	<link href="https://bryg217.github.io/bryans-blog/feed/feed.xml" rel="self"/>
+	<link href="https://bryg217.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://bryg217.github.io/bryans-blog/"/>
-	<updated>2021-10-18T00:00:00Z</updated>
+	<updated>2021-10-20T00:00:00Z</updated>
 	<id>https://bryg217.github.io/bryans-blog/</id>
 	<author>
 		<name>Your Name Here</name>
@@ -13,11 +13,125 @@
 	</author>
 	
 	<entry>
+		<title>3 Step Framework For Solving Almost All CS Problems</title>
+		<link href="https://bryg217.github.io/posts/3-problem-solving/"/>
+		<updated>2021-10-20T00:00:00Z</updated>
+		<id>https://bryg217.github.io/posts/3-problem-solving/</id>
+		<content type="html">&lt;h2 id=&quot;overview&quot; tabindex=&quot;-1&quot;&gt;Overview &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/3-problem-solving/#overview&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Today I want to share a formula that has been useful for solving problems at work.&lt;/p&gt;
+&lt;p&gt;For those of you that love TLDRs (like me), here are the 3 steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Analysis&lt;/li&gt;
+&lt;li&gt;Requirements&lt;/li&gt;
+&lt;li&gt;Technical Design&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Below, I&#39;ll be going through each in detail, and then at the end, I&#39;ll use an example to show what it looks like in practice.&lt;/p&gt;
+&lt;p&gt;Without further ado, let&#39;s get started.&lt;/p&gt;
+&lt;h2 id=&quot;analysis&quot; tabindex=&quot;-1&quot;&gt;Analysis &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/3-problem-solving/#analysis&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is the first step, obviously.  The key theme here is: &lt;strong&gt;understanding the problem and solution in plain English&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In order to understand the problem and solution, here are the actual steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;State The Problem: Start with a 1 liner, if you can.  The sentence should clearly state your problem in plain English.&lt;/li&gt;
+&lt;li&gt;List Down Use Cases: Once you understand the problem, you can go ahead and move onto the use cases for said problem.&lt;/li&gt;
+&lt;li&gt;Understanding Current Implementation (optional): This one is really about understanding the current component, part of the system, or whatever it is that you will be working on.  As professionals, we spend a lot of time working within a team, and that means, working with your teammates&#39; (or your old) code.  So, this is a step I utilize &lt;strong&gt;a ton&lt;/strong&gt; in order to ensure my solution fits within the code base&#39;s current state.&lt;/li&gt;
+&lt;li&gt;Algorithms: Once you understand the issue and the use cases, you can move onto thinking about solutions for each of the use cases, in plain English.&lt;/li&gt;
+&lt;li&gt;Questions: This last one is a special one.  This one can be done after step 1, 2, 3 and of course 4.  Just because I listed it here, doesn&#39;t mean that it should always go after 4.  In fact, I find myself asking questions all throughout the process, if I am honest.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In practice, this can be dynamic, but that general flow is usually what my thought process follows.&lt;/p&gt;
+&lt;p&gt;Next, let&#39;s take a look at &lt;em&gt;requirements&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;requirements&quot; tabindex=&quot;-1&quot;&gt;Requirements &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/3-problem-solving/#requirements&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This step is pretty self explanatory.  Here you need to gather the requirements of said problem/feature that your solution should incorporate.  These are typically the non-negotiable aspects of a given feature.&lt;/p&gt;
+&lt;p&gt;As you&#39;ll see in the example below, I&#39;ll be diving into this a little bit more.&lt;/p&gt;
+&lt;h2 id=&quot;technical-design&quot; tabindex=&quot;-1&quot;&gt;Technical Design &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/3-problem-solving/#technical-design&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is where things begin to get interesting.  Here is where I think about &lt;strong&gt;the implementation&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;So, the main things we want to highlight here are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Files Being Created or Modified&lt;/li&gt;
+&lt;li&gt;Code Being Updated or Added to File:  This is typically your functions, objects, classes and more.  Within React, the functions or classes can be the components themselves.&lt;/li&gt;
+&lt;li&gt;High Level Updates: For each of the pieces of code mentioned in the previous step, talk about the high level updates you would make to said pieces of code, and if applicable, the tests you would write for said code.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now, as I&#39;ve eluded to in the previous sections, this is dynamic and over time, you can adjust the process to your liking.  Now, with that being said, let&#39;s move onto the next section.&lt;/p&gt;
+&lt;h2 id=&quot;reality&quot; tabindex=&quot;-1&quot;&gt;Reality &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/3-problem-solving/#reality&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There are a few key points I&#39;d like to make before moving onto the final section, below.&lt;/p&gt;
+&lt;p&gt;And those are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Be Flexible: If you&#39;ve never tried this process out, follow it.  Make sure you do it more than once, though.  Give it a fair shot.  And then, as I eluded to in the previous section, you can adjust certain parts (i.e. add or remove) depending on the problem you are solving and what works for you.  But definitely, the first few times, follow each of the steps.&lt;/li&gt;
+&lt;li&gt;Don&#39;t Be Surprised: You may have missed one or two minor things, especially for the bigger features.  That is totally okay.  Better to miss it now than in production.  If one of your teammates has the time and they are familiar with the piece of code you are working on, send them this and get some feedback.  Typically this is a nice way of ruling out anything you may have missed.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now, let&#39;s dive into the fun example that&#39;ll pull everything together.&lt;/p&gt;
+&lt;h2 id=&quot;example&quot; tabindex=&quot;-1&quot;&gt;Example &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/3-problem-solving/#example&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;overview-1&quot; tabindex=&quot;-1&quot;&gt;Overview &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/3-problem-solving/#overview-1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;For this example, we&#39;re going to keep it &lt;strong&gt;SIMPLE&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;What we&#39;re going to do is head to over to &lt;a href=&quot;https://react-bootstrap.github.io/components/modal/&quot;&gt;React Bootstrap&#39;s Site&lt;/a&gt; (awesome library by the way).  And, we&#39;re going to take a look at their modal component.  For this component, we are going to pretend that it&#39;s already implemented (because it is).&lt;/p&gt;
+&lt;p&gt;Given the information above, the problem we want to solve is: &lt;strong&gt;give the user the ability to open a modal, like how we do in the GIF below.  Also, note that this is within a React application&lt;/strong&gt;.&lt;/p&gt;
+&lt;img src=&quot;https://bryans-blog.s3.amazonaws.com/3-example-modal.gif&quot; /&gt;
+&lt;h3 id=&quot;analysis-1&quot; tabindex=&quot;-1&quot;&gt;Analysis &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/3-problem-solving/#analysis-1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Problem&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The problem more clearly stated is: We have a button within a page component, and when that button is clicked, it needs to show the modal.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: We are going to leave the handling of closing the modal outside of this for now.  Even though it doesn&#39;t make sense, let&#39;s pretend that once the modal is open, it&#39;s open forever.  Horrible user experience, I know.  But, I want to keep things simple and short.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;User clicks on button&lt;/li&gt;
+&lt;li&gt;User does not click on button&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Questions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: Given the simplicity of this feature and the fact that I came up with the specs for it, I do not have questions.  But, for the sake of the example, I&#39;ll add one.&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Hover State: Is there any sort of hover state style configuration that we would need to add?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;Note: Notice that I did ask the question after use cases, not last.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Current Implementation&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Modal:
+&lt;ul&gt;
+&lt;li&gt;Already implemented&lt;/li&gt;
+&lt;li&gt;For the sake of this example, the only thing we need to worry about is passing/telling the modal to be visible on button click (i.e. a state variable)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Button
+&lt;ul&gt;
+&lt;li&gt;Already implemented as well&lt;/li&gt;
+&lt;li&gt;All I would have to do is update it on click&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Algorithm&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;User clicks button&lt;/li&gt;
+&lt;li&gt;Modal becomes visible (i.e. button tells it to show)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;requirements-1&quot; tabindex=&quot;-1&quot;&gt;Requirements &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/3-problem-solving/#requirements-1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Permanent Modal: Once the modal shows, it&#39;s forever shown.&lt;/li&gt;
+&lt;li&gt;Standard UI: No UI configurations will be needed for this button.&lt;/li&gt;
+&lt;li&gt;Button Click Event Handler: Popup should only show if user clicks on button, not on hover.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;technical-design-1&quot; tabindex=&quot;-1&quot;&gt;Technical Design &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/3-problem-solving/#technical-design-1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Note: Again, I am working within an imaginary project, and thus, I am making up these files.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Page.js&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;State: Add boolean to account for modal visibility; it will be the data that is passed into the Modal.&lt;/li&gt;
+&lt;li&gt;Button - &lt;code&gt;onClick&lt;/code&gt;: Update the handler to be &lt;code&gt;() =&amp;gt; setVisible(true)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Modal: Ensure the modal passes the state variable as props.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;closing-thoughts&quot; tabindex=&quot;-1&quot;&gt;Closing Thoughts &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/3-problem-solving/#closing-thoughts&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;And, that is what it looks like in practice.  We have all three parts thought out, and it looks like we are ready to proceed to implementation.  NICE!&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/3-problem-solving/#conclusion&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Well, as always, it was a pleasure writing this out.  I hope you got some value out of it.&lt;/p&gt;
+&lt;p&gt;If you find that I made a mistake, missed something, something needs to be corrected or, you just want to just reach out, definitely feel free to do so at &lt;a href=&quot;mailto:bguillen95@gmail.com&quot;&gt;bguillen95@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;All the best.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>How To Manage Global State Without Redux</title>
-		<link href="https://bryg217.github.io/bryans-blog/posts/2-state/"/>
+		<link href="https://bryg217.github.io/posts/2-state/"/>
 		<updated>2021-10-18T00:00:00Z</updated>
-		<id>https://bryg217.github.io/bryans-blog/posts/2-state/</id>
-		<content type="html">&lt;h2 id=&quot;description&quot; tabindex=&quot;-1&quot;&gt;Description &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/bryans-blog/posts/2-state/#description&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+		<id>https://bryg217.github.io/posts/2-state/</id>
+		<content type="html">&lt;h2 id=&quot;description&quot; tabindex=&quot;-1&quot;&gt;Description &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/2-state/#description&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;In this post, I&#39;d like to share a technique for managing state within React, specifically,&lt;br /&gt;
 &lt;strong&gt;state shared between different pages.&lt;/strong&gt;  This is, especially, a nice technique for those of you who are using &lt;code&gt;Next.js&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;It&#39;s important to emphasize that last point above: &lt;strong&gt;state shared between different pages&lt;/strong&gt;.&lt;/p&gt;
@@ -26,7 +140,7 @@
 &lt;p&gt;So, again, this post simply shows &lt;strong&gt;a different way of sharing state between different pages/routes within a React app, without Redux -- again, especially for developers using Next.js&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; At the end of this post, I&#39;ll share a link to an example project using this approach.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; I learned this pattern from an amazing YouTube and YouTuber.  &lt;a href=&quot;https://www.youtube.com/watch?v=MR43-gYVQbI&amp;amp;t=504s&quot;&gt;Here&lt;/a&gt; is the link to that video (thank him for me).&lt;/p&gt;
-&lt;h2 id=&quot;prerequisites&quot; tabindex=&quot;-1&quot;&gt;Prerequisites &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/bryans-blog/posts/2-state/#prerequisites&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;prerequisites&quot; tabindex=&quot;-1&quot;&gt;Prerequisites &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/2-state/#prerequisites&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Familiarity with the points below is needed before moving forward:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;React&lt;/li&gt;
@@ -36,8 +150,8 @@
 &lt;ol&gt;
 &lt;li&gt;Redux Concepts (i.e. reducers, actions, dispatchers)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;approach&quot; tabindex=&quot;-1&quot;&gt;Approach &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/bryans-blog/posts/2-state/#approach&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;high-level-overview&quot; tabindex=&quot;-1&quot;&gt;High Level Overview &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/bryans-blog/posts/2-state/#high-level-overview&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&quot;approach&quot; tabindex=&quot;-1&quot;&gt;Approach &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/2-state/#approach&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;high-level-overview&quot; tabindex=&quot;-1&quot;&gt;High Level Overview &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/2-state/#high-level-overview&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;This approach (as hinted to above), will be using React Context.  This context will basically wrap the entire application, and thus, allow the &amp;quot;page&amp;quot; components to read from it.&lt;/p&gt;
 &lt;p&gt;Along with reading state from the context, the page components will then have the ability to dispatch actions to an application reducer, which of course, is responsible for taking an action and then computing a new state.&lt;/p&gt;
 &lt;p&gt;The flow chart below sums up the approach.&lt;/p&gt;
@@ -45,14 +159,14 @@
 &lt;p&gt;Above, the first shape (i.e. &lt;code&gt;App Component&lt;/code&gt;) shows how the pages are contained within said element.&lt;/p&gt;
 &lt;p&gt;Next, starting from the &lt;code&gt;Page (Example: Home)&lt;/code&gt; square, the flow chart walks us through what happens when the state needs to change.&lt;/p&gt;
 &lt;p&gt;To see a small project that implements this, please click &lt;a href=&quot;https://github.com/bryg217/countries&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;technical-design&quot; tabindex=&quot;-1&quot;&gt;Technical Design &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/bryans-blog/posts/2-state/#technical-design&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;technical-design&quot; tabindex=&quot;-1&quot;&gt;Technical Design &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/2-state/#technical-design&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;There are going to be three files we care about for now:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;State File&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;App.js&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Page Component&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&quot;state-file&quot; tabindex=&quot;-1&quot;&gt;State File &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/bryans-blog/posts/2-state/#state-file&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;state-file&quot; tabindex=&quot;-1&quot;&gt;State File &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/2-state/#state-file&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;At a high level, this file contains all of the code associated to the API for managing state (i.e. Reducer, hooks for state and the provider).  Of course, it doesn&#39;t have to be this way for a production level app.  This is just all done within the same file for demonstrations purposes.&lt;/p&gt;
 &lt;p&gt;Below, I&#39;ve included what this code might look like (e.g. &lt;code&gt;state.js&lt;/code&gt;):&lt;/p&gt;
 &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useReducer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; useContext&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; createContext &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;react&#39;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; AppStateContext &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; AppDispatchContext &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;reducer&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; action&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;action&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;type&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;SET_LOADED&#39;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; loaded &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; action&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;payload&lt;br /&gt;      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;        &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;        loaded&lt;br /&gt;      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Unknown action: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;action&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;type&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; initialState &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  feed&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;  loaded&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;AppProvider&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; children &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; dispatch&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useReducer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;reducer&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; initialState&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;AppDispatchContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Provider value&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;dispatch&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;AppStateContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Provider value&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;br /&gt;        &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;children&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;AppStateContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Provider&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;AppDispatchContext&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Provider&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;useApp&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;AppStateContext&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;useAppDispatch&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;AppDispatchContext&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -72,14 +186,14 @@
 &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// without hooks - import&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useContext &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;react&#39;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; AppStateContext &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;./state&#39;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token comment&quot;&gt;// without hooks - within component&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;AppStateContext&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token comment&quot;&gt;// with the hooks&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useApp &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;./state&#39;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token comment&quot;&gt;// with the hooks - in component&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useApp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;And that pretty much sums up the &amp;quot;state&amp;quot; page.&lt;/p&gt;
 &lt;p&gt;Next, let&#39;s take a look at how we can begin to use it.&lt;/p&gt;
-&lt;h4 id=&quot;app.js&quot; tabindex=&quot;-1&quot;&gt;App.js &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/bryans-blog/posts/2-state/#app.js&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;app.js&quot; tabindex=&quot;-1&quot;&gt;App.js &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/2-state/#app.js&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Now that everything is setup, &lt;code&gt;App.js&lt;/code&gt; can look like:&lt;/p&gt;
 &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Other imports&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; AppProvider &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;./state&#39;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;App&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token comment&quot;&gt;// other code&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;AppProvider&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Home&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token comment&quot;&gt;// etc.&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;AppProvider&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now, our components can hook into the state, as shown in the next section.&lt;/p&gt;
-&lt;h4 id=&quot;page-component&quot; tabindex=&quot;-1&quot;&gt;Page Component &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/bryans-blog/posts/2-state/#page-component&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;page-component&quot; tabindex=&quot;-1&quot;&gt;Page Component &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/2-state/#page-component&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
 &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Other imports&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useApp&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; useAppDispatch &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;./state&#39;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Home&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token comment&quot;&gt;// other code&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; dispatch &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useAppDispatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; loaded &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useApp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;onClick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token function&quot;&gt;dispatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;      type&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;SOME_TYPE&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;      payload&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;        &lt;span class=&quot;token comment&quot;&gt;// some data&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;span&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Loaded&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;loaded&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;span&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;button onClick&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;onClick&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Click&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;And there you go.  That is how we can &lt;strong&gt;read from&lt;/strong&gt; and &lt;strong&gt;dispatch actions&lt;/strong&gt; from a page component.&lt;/p&gt;
-&lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/bryans-blog/posts/2-state/#conclusion&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/posts/2-state/#conclusion&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Well, that pretty much concludes this post.  Hope you got a lot of out it!&lt;/p&gt;
 &lt;p&gt;If you are interested in seeing a mini project that implements this, please checkout the project that was referenced above (&lt;a href=&quot;https://github.com/bryg217/countries&quot;&gt;here&lt;/a&gt; is the link to avoid scrolling).&lt;/p&gt;
 &lt;p&gt;All the best!&lt;/p&gt;
@@ -88,9 +202,9 @@
 	
 	<entry>
 		<title>Hello World</title>
-		<link href="https://bryg217.github.io/bryans-blog/posts/1-first-post/"/>
+		<link href="https://bryg217.github.io/posts/1-first-post/"/>
 		<updated>2021-10-17T00:00:00Z</updated>
-		<id>https://bryg217.github.io/bryans-blog/posts/1-first-post/</id>
+		<id>https://bryg217.github.io/posts/1-first-post/</id>
 		<content type="html">&lt;p&gt;This is my first post.  And as a student of computer science, it is necessary to start it off with &lt;code&gt;hello world&lt;/code&gt;.  =)&lt;/p&gt;
 </content>
 	</entry>
