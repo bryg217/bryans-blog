@@ -27,11 +27,6 @@
   </url>
   
   <url>
-    <loc>https://bryg217.github.io/bryans-blog/about/</loc>
-    <lastmod>2021-10-17</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bryg217.github.io/bryans-blog/</loc>
     <lastmod>2021-10-17</lastmod>
   </url>
@@ -39,5 +34,10 @@
   <url>
     <loc>https://bryg217.github.io/bryans-blog/posts/2-state/</loc>
     <lastmod>2021-10-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bryg217.github.io/bryans-blog/about/</loc>
+    <lastmod>2021-10-20</lastmod>
   </url>
 </urlset>
