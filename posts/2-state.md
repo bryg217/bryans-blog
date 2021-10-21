@@ -23,7 +23,7 @@ So, again, this post simply shows **a different way of sharing state between dif
 
 **Note:** At the end of this post, I'll share a link to an example project using this approach.
 
-**Note:** I learned this pattern from an amazing YouTube and YouTuber.  [Here](https://www.youtube.com/watch?v=MR43-gYVQbI&t=504s) is the link to that video (thank him for me).
+**Note:** I learned this pattern from an amazing YouTube channel and YouTuber.  [Here](https://www.youtube.com/watch?v=MR43-gYVQbI&t=504s) is the link to that video (thank him for me).
 
 ## Prerequisites
 
