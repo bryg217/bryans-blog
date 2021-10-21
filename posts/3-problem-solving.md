@@ -1,5 +1,5 @@
 ---
-title: 3 Step Framework For Solving Almost All CS Problems
+title: 3 Step Framework For Solving CS Problems
 description: Checkout the cool "framework" for solving most problems.
 date: 2021-10-20
 tags:
