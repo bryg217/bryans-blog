@@ -117,7 +117,7 @@ This does a few things:
 
 There are many more benefits, but those are the top ones in my experience.
 
-So again, the key takeaway for today's post is: **think about your page as you would other components -- to a degree**.  Of course, this nuanced and you need to know how and when to apply it.  But, that is a topic for another discussion.  =)
+So again, the key takeaway for today's post is: **think about your page as you would other components -- to a degree**.  Of course, this is nuanced and you need to know how and when to apply it.  But, that is a topic for another discussion.  =)
 
 ## Closing Thoughts
 
