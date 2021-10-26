@@ -47,7 +47,7 @@
 &lt;li&gt;Decoupled From APIs: Now, I can use a tool like Storybook to easily develop these pages and then share them with the team.  ALL WITHOUT HAVING TO BUILD AN APPLICATION.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;There are many more benefits, but those are the top ones in my experience.&lt;/p&gt;
-&lt;p&gt;So again, the key takeaway for today&#39;s post is: &lt;strong&gt;think about your page as you would other components -- to a degree&lt;/strong&gt;.  Of course, this nuanced and you need to know how and when to apply it.  But, that is a topic for another discussion.  =)&lt;/p&gt;
+&lt;p&gt;So again, the key takeaway for today&#39;s post is: &lt;strong&gt;think about your page as you would other components -- to a degree&lt;/strong&gt;.  Of course, this is nuanced and you need to know how and when to apply it.  But, that is a topic for another discussion.  =)&lt;/p&gt;
 &lt;h2 id=&quot;closing-thoughts&quot; tabindex=&quot;-1&quot;&gt;Closing Thoughts &lt;a class=&quot;direct-link&quot; href=&quot;https://bryg217.github.io/bryans-blog/posts/4-react-tip-page-components/#closing-thoughts&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;There you have it: another tool for your metaphorical tool belt.&lt;/p&gt;
 &lt;p&gt;As I always say, I don&#39;t take an opinionated stance, and surely, there are other patterns that may be more effective.  But again, this is something that has proven useful in my journey.  And now, I hope it helps you on yours.&lt;/p&gt;
