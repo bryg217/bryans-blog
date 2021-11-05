@@ -5,12 +5,38 @@
 	
 	<link href="https://bryg217.github.io/bryans-blog/feed/feed.xml" rel="self"/>
 	<link href="https://bryg217.github.io/bryans-blog/"/>
-	<updated>2021-10-25T00:00:00Z</updated>
+	<updated>2021-11-05T00:00:00Z</updated>
 	<id>https://bryg217.github.io/bryans-blog/</id>
 	<author>
 		<name>Your Name Here</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>(VIDEO) How I Architected This Small Next.js App</title>
+		<link href="https://bryg217.github.io/bryans-blog/posts/5-next-js-app-architecture/"/>
+		<updated>2021-11-05T00:00:00Z</updated>
+		<id>https://bryg217.github.io/bryans-blog/posts/5-next-js-app-architecture/</id>
+		<content type="html">&lt;p&gt;For today&#39;s post, I&#39;d like to do something different.  I&#39;d like to share a video that I recorded, just to add some variety (some spice) to this blog.  In this video, I&#39;ll be walking you through part of the architecture of a really small &lt;code&gt;next.js&lt;/code&gt; application, with the hope that you may find some value in it.&lt;/p&gt;
+&lt;p&gt;Before diving into the video, it is worth highlighting the tech used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;next.js&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Typescript&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;SpaceX GraphQL API&lt;/li&gt;
+&lt;li&gt;More&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Additionally, it is worth sharing the links to the repo and another one I reference in the video:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/bryg217/spacex-explorer&quot;&gt;Repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://studio.apollographql.com/sandbox/explorer?endpoint=https%3A%2F%2Fapi.spacex.land%2Fgraphql%2F&quot;&gt;SpaceX API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Without further ado, enjoy the video.  =)&lt;/p&gt;
+&lt;video controls=&quot;&quot;&gt;
+  &lt;source src=&quot;https://bryans-blog.s3.amazonaws.com/bryan-blog-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  Sorry, your browser doesn&#39;t support embedded videos.
+&lt;/video&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>React Tip - (Dumb) Page Components</title>

@@ -10,6 +10,12 @@
     "url": "https://bryg217.github.io/bryans-blog/about/"
   },
   "items": [{
+      "id": "https://bryg217.github.io/bryans-blog/posts/5-next-js-app-architecture/",
+      "url": "https://bryg217.github.io/bryans-blog/posts/5-next-js-app-architecture/",
+      "title": "(VIDEO) How I Architected This Small Next.js App",
+      "content_html": "<p>For today's post, I'd like to do something different.  I'd like to share a video that I recorded, just to add some variety (some spice) to this blog.  In this video, I'll be walking you through part of the architecture of a really small <code>next.js</code> application, with the hope that you may find some value in it.</p>\n<p>Before diving into the video, it is worth highlighting the tech used:</p>\n<ul>\n<li><code>next.js</code></li>\n<li><code>Typescript</code></li>\n<li>SpaceX GraphQL API</li>\n<li>More</li>\n</ul>\n<p>Additionally, it is worth sharing the links to the repo and another one I reference in the video:</p>\n<ul>\n<li><a href=\"https://github.com/bryg217/spacex-explorer\">Repo</a></li>\n<li><a href=\"https://studio.apollographql.com/sandbox/explorer?endpoint=https%3A%2F%2Fapi.spacex.land%2Fgraphql%2F\">SpaceX API</a></li>\n</ul>\n<p>Without further ado, enjoy the video.  =)</p>\n<video controls=\"\">\n  <source src=\"https://bryans-blog.s3.amazonaws.com/bryan-blog-1.mp4\" type=\"video/mp4\" />\n  Sorry, your browser doesn't support embedded videos.\n</video>\n",
+      "date_published": "2021-11-05T00:00:00Z"
+    },{
       "id": "https://bryg217.github.io/bryans-blog/posts/4-react-tip-page-components/",
       "url": "https://bryg217.github.io/bryans-blog/posts/4-react-tip-page-components/",
       "title": "React Tip - (Dumb) Page Components",
