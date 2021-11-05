@@ -254,9 +254,18 @@ a[href].direct-link:focus:visited,
   width: 380px;
 }
 
+video {
+  height: auto;
+  width: 360px;
+}
+
 @media only screen and (min-width: 600px) {
   .post-2-flow-chart-img {
     width: 600px;
+  }
+
+  video {
+    width: 550px;
   }
 }
 
