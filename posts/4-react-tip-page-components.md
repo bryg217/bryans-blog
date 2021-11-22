@@ -125,6 +125,6 @@ There you have it: another tool for your metaphorical tool belt.
 
 As I always say, I don't take an opinionated stance, and surely, there are other patterns that may be more effective.  But again, this is something that has proven useful in my journey.  And now, I hope it helps you on yours.
 
-If you find that I made a mistake, missed something, something needs to be corrected or, you just want to just reach out, definitely feel free to do so at [bguillen95@gmail.com](mailto:bguillen95@gmail.com).
+If you find that I made a mistake, missed something, something needs to be corrected or, you just want to just reach out, definitely feel free to do so at [bryan.guillen217@gmail.com](mailto:bryan.guillen217@gmail.com).
 
 All the best.

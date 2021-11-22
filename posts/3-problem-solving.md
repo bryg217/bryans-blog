@@ -136,7 +136,7 @@ And, that is what it looks like in practice.  We have all three parts thought ou
 
 Well, as always, it was a pleasure writing this out.  I hope you got some value out of it.
 
-If you find that I made a mistake, missed something, something needs to be corrected or, you just want to just reach out, definitely feel free to do so at [bguillen95@gmail.com](mailto:bguillen95@gmail.com).
+If you find that I made a mistake, missed something, something needs to be corrected or, you just want to just reach out, definitely feel free to do so at [bryan.guillen217@gmail.com](mailto:bryan.guillen217@gmail.com).
 
 
 All the best.
